@@ -21,7 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <h4>Welcome to Cars Project</h4>
+        <h4>{{$about}}</h4>
 
     </body>
 </html>
