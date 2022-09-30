@@ -21,7 +21,8 @@
         </style>
     </head>
     <body class="antialiased">
-        <h4>Welcome to Cars Project</h4>
+        <h2>{{$name}}</h2>
+        <p>I am {{$age}} old</p>
 
     </body>
 </html>
