@@ -22,7 +22,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     $about = 'About us';
     return view('about', compact('about'));
-});
+})->name('about');
 Route::get('/cars', [CarsController::class, 'index'])->name('cars');
 
 Route::get('/cars/{id}', [CarsController::class, 'show'])->name('single-car');
